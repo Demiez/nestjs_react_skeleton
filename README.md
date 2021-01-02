@@ -4,3 +4,5 @@
 
 yarn init -y
 yarn create react-app client --template typescript
+cd client
+yarn remove web-vitals
