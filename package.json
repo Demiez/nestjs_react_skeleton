@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Demiez/nestjs_react_skeleton.git",
-  "author": "Dmytro Petrenko",
+  "author": "Dmytro Petrenko <dmg.petrenko@gmail.com>",
   "license": "MIT"
 }
