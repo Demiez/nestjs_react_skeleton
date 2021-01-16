@@ -1,6 +1,7 @@
 {
   "name": "nestjs_react_skeleton",
   "version": "1.0.0",
+  "description": "React and NestJS Skeleton",
   "main": "index.js",
   "repository": "https://github.com/Demiez/nestjs_react_skeleton.git",
   "author": "Dmytro Petrenko <dmg.petrenko@gmail.com>",
