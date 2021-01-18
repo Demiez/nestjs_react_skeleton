@@ -1,16 +1,16 @@
 import * as React from 'react';
 
 export default class App extends React.Component<any, any> {
-  private interval: NodeJS.Timeout;
+  private interval: number;
   constructor(props: {}) {
     super(props);
     this.state = { count: 0 };
   }
 
   public componentWillMount() {
-    this.interval = setInterval(() => {
+    this.interval = (setInterval(() => {
       this.setState({ count: this.state.count + 1 });
-    }, 1000);
+    }, 1000) as any) as number;
   }
 
   public componentWillUnmount() {
@@ -20,7 +20,7 @@ export default class App extends React.Component<any, any> {
   public render() {
     return (
       <div>
-        <h1>React Skeleton</h1>
+        <h1>React Skeleton!</h1>
         <div>Hot reload React Skeleton in TypeScript! {this.state.count}</div>
       </div>
     );
