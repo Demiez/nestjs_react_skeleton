@@ -5,7 +5,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const TS_CONFIG_CLIENT = 'tsconfig.client.json';
 
 module.exports = {
-  devtool: 'source-map',
   entry: ['react-hot-loader/patch', './client/index.tsx'],
 
   output: {
@@ -48,6 +47,7 @@ module.exports = {
       },
     ],
   },
+  devtool: 'source-map',
   performance: {
     hints: false,
   },
